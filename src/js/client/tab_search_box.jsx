@@ -14,6 +14,7 @@ module.exports = React.createClass({
     this.bindKey('ctrl+k', this.selectPrevious);
     this.bindKey('down', this.selectNext);
     this.bindKey('ctrl+j', this.selectNext);
+    this.bindKey('tab', this.selectNext);
   },
 
   componentWillUnmount: function() {
